@@ -1,0 +1,77 @@
+body{
+    font-family: Rockwell;
+    background: rgb(205, 230, 192);
+    margin: auto auto;
+    padding: 20px;
+}
+header{
+    background:rgb(36, 201, 69);
+    background-image: url("images/fondo_campo.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+header, aside{
+    font-family:Rockwell;
+    color: white;
+    text-decoration: none;
+}
+header img, .Titulo{
+    display: inline;
+    margin: auto;
+    padding: 10px;
+    font-size: 50px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.articles{
+    background: white;
+    text-align: justify;
+    padding: 30px;
+    float: left;
+    width: 60%;
+}
+article{
+    margin-bottom: 50px;
+}
+
+aside{
+    background: rgb(36, 201, 69);
+    float: left;
+    width: 30%;
+    margin-left: 10px;
+    padding: 20px;
+}
+.pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(36, 201, 69);
+    color: #FFFFFF;
+}
+
+.navegacion li{
+    display: inline-block;
+    list-style:none;
+    padding: 20px;
+}
+
+.boton{
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+aside div{
+    margin-bottom: 10px;
+}
+.articles img, .articles video, iframe{
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+p, table, td, th{
+    padding: 10px;
+    margin-bottom: 20px;
+}
