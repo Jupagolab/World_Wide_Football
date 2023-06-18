@@ -11,22 +11,29 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <table>
-                <th><img src="images/WWF.png" width="200" alt="Logo"></th>
-                <th>
-                    <h1 class="Titulo">World Wide Football</h1>
-                </th>
-            </table>
-        </a>
+        <div class="cabecera">
+            <a href="index.html"><img src="images/WWF.png" width="200" alt="Logo"></a>
+            <a href="index.html"><h1 class="Titulo">World Wide Football</h1></a>
+        </div>
         <nav>
             <ul class="navegacion">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="https://www.flashscore.com.ve/" title="Mis Marcadores" target="_blank">Resultados en vivo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="somos.html">¿Quienes Somos?</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div id="uel" class="contenidoInformativo">
+            <div class="contenido">
+                <h2><i>Conoce este breve resumen acerca de la segunda mejor competición a nivel de clubes de Europa.</i></h2>
+                <p>
+                    Bienvenido a World Wide Football, Página de información sobre el Fútbol Internacional.
+                </p>
+            </div>
+            <img class="trofeoUel" src="/images/trofeo_uel.png" alt="Trofeo de la UEFA Europa League">
+        </div>
         <div class="articles">
             <article>
                 <h1>UEFA Europa League</h1>
@@ -167,10 +174,10 @@
                 <cite><a href="https://es.wikipedia.org/wiki/Liga_de_Campeones_de_la_UEFA#Palmar%C3%A9s" target="_blank" title="UEFA Champions League - Wikipedia">UEFA Champions League. Wikipedia</a></cite>
             </footer>
         </div>
-        <aside>
-            <div><a href="ucl.html">UEFA Champions League</div>
-            <div><a href="cLib.html">Copa CONMEBOL Libertadores</a></div>
-            <div><a href="https://www.fifa.com/es" target="_blank" title="Pagina Oficial de la FIFA">FIFA</a></div>
+        <aside>                
+            <a href="ucl.html"><div class="ucl">UEFA Champions League</div></a>
+            <a href="cLib.html"><div class="clib">Copa CONMEBOL Libertadores</div></a>
+            <a href="https://www.fifa.com/es" target="_blank" title="Pagina Oficial de la FIFA"><div class="fifa">FIFA</div></a>
         </aside>
     </main>
     <footer class="pie">Derechos reservados 2023 ®</footer>

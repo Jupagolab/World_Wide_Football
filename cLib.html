@@ -11,22 +11,29 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <table>
-                <th><img src="images/WWF.png" width="200" alt="Logo"></th>
-                <th>
-                    <h1 class="Titulo">World Wide Football</h1>
-                </th>
-            </table>
-        </a>
+        <div class="cabecera">
+            <a href="index.html"><img src="images/WWF.png" width="200" alt="Logo"></a>
+            <a href="index.html"><h1 class="Titulo">World Wide Football</h1></a>
+        </div>
         <nav>
             <ul class="navegacion">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="https://www.flashscore.com.ve/" title="Mis Marcadores" target="_blank">Resultados en vivo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="somos.html">¿Quienes Somos?</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div id="clib" class="contenidoInformativo">
+            <div class="contenido">
+                <h2><i>La mejor competición de clubes de Sudamérica.<br> Conoce su Historia...</i></h2>
+                <p>
+                    La competeción más apasionante del fútbol sudamericano.
+                </p>
+            </div>
+            <img class="trofeocLib" src="/images/trofeo_clib.png" alt="Trofeo de la CONMEBOL Libertadores">
+        </div>
         <div class="articles">
             <article>
                 <h1>Copa CONMEBOL Libertadores</h1>
@@ -107,10 +114,10 @@
                 </footer>
             </article>
         </div>
-        <aside>
-            <div><a href="ucl.html">UEFA Champions League</div>
-            <div><a href="cLib.html">Copa CONMEBOL Libertadores</a></div>
-            <div><a href="https://www.fifa.com/es" target="_blank" title="Pagina Oficial de la FIFA">FIFA</a></div>
+        <aside>                
+            <a href="ucl.html"><div class="ucl">UEFA Champions League</div></a>
+            <a href="cLib.html"><div class="clib">Copa CONMEBOL Libertadores</div></a>
+            <a href="https://www.fifa.com/es" target="_blank" title="Pagina Oficial de la FIFA"><div class="fifa">FIFA</div></a>
         </aside>
     </main>
     <footer class="pie">Derechos reservados 2023 ®</footer>
