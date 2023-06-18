@@ -11,23 +11,29 @@
     </head>
     <body>
         <header>
-            <a href="index.html">
-                <table>
-                    <th><img src="images/WWF.png" width="200" alt="Logo"></th>
-                    <th><h1 class="Titulo">World Wide Football</h1></th>
-                </table>
-            </a>
+            <div class="cabecera">
+                <a href="index.html"><img src="images/WWF.png" width="200" alt="Logo"></a>
+                <a href="index.html"><h1 class="Titulo">World Wide Football</h1></a>
+            </div>
             <nav>
                 <ul class="navegacion">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="https://www.flashscore.com.ve/" title="Mis Marcadores" target="_blank">Resultados en vivo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">¿Quienes Somos?</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <p>
-                Bienvenido a World Wide Football, Página de información sobre el Fútbol Internacional.
-            </p>
+            <div id="argentina" class="contenidoInformativo">
+                <div class="contenido">
+                    <h2><i>Mira toda la información acerca de las distintas competiciones del fútbol mundial</i></h2>
+                    <p>
+                        Bienvenido a World Wide Football, Página de información sobre el Fútbol Internacional.
+                    </p>
+                </div>
+                <img class="messi" src="images/messi.png" alt="Messi levantando la copa del mundo">
+            </div>
             <div class="articles">
                 <article>
                     <section>
@@ -52,23 +58,23 @@
                             <li>
                                 <h3>Uefa Champions League</h3>
                                 <p>
-                                    También conocida como <b>Copa de Europa</b>, es el torneo internacional oficial de fútbol más prestigioso a nivel de clubes en Europa. Organizado por su estamento continental, la UEFA.<br />
-                                    <a href="ucl.html">Ver mas...</a>
+                                    También conocida como <b>Copa de Europa</b>, es el torneo internacional oficial de fútbol más prestigioso a nivel de clubes en Europa. Organizado por su estamento continental, la UEFA.<br>
                                 </p>
+                                <a class="enlaces" href="ucl.html">Ver mas...</a><br>
                             </li>
                             <li>
                                 <h3>Uefa Europa League</h3>
                                 <p>
                                     Conocida en sus orígenes como <b>Copa de la UEFA</b>, es una competición continental de clubes organizada por la <a href="https://es.uefa.com/" target="_blank">UEFA</a>, considerada la segunda más prestigiosa de Europa, tras la UEFA Champions League.<br />
-                                    <a href="uel.html">Ver mas...</a>
                                 </p>
+                                <a class="enlaces" href="uel.html">Ver mas...</a> <br>
                             </li>
                             <li>
                                 <h3>CONMEBOL Libertadores</h3>
                                 <p>
                                     Conocida simplemente como <b>Copa Libertadores</b>; es un torneo anual internacional oficial de fútbol organizado por la Confederación Sudamericana de Fútbol (CONMEBOL), creado en 1960 bajo la denominación de Copa de Campeones de América.<br />
-                                    <a href="cLib.html">Ver mas...</a>
                                 </p>
+                                <a class="enlaces" href="cLib.html">Ver mas...</a> <br>
                             </li>
                         </ul>
                         <p>
@@ -85,9 +91,9 @@
                 </article>
             </div>
             <aside>                
-                <div><a href="ucl.html">UEFA Champions League</a></div>
-                <div><a href="cLib.html">Copa CONMEBOL Libertadores</a></div>
-                <div><a href="https://www.fifa.com/es" target="_blank" title="Pagina Oficial de la FIFA">FIFA</a></div>
+                <a href="ucl.html"><div class="ucl">UEFA Champions League</div></a>
+                <a href="cLib.html"><div class="clib">Copa CONMEBOL Libertadores</div></a>
+                <a href="https://www.fifa.com/es" target="_blank" title="Pagina Oficial de la FIFA"><div class="fifa">FIFA</div></a>
             </aside>
         </main>
         <footer class="pie">Derechos reservados 2023 ®</footer>
