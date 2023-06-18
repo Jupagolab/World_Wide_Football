@@ -1,0 +1,115 @@
+:root{
+    --bgColor1: rgb(26, 152, 51);
+    --bgColor2: rgb(15, 97, 31);
+    --mainColor: #FFFFFF;
+    --colorResalte: rgb(205, 230, 192); 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Rockwell;
+    background-image: url("images/fondo_campo.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+header{
+    text-align: center;  
+}
+header img, .Titulo{
+    font-size: 50px;
+    justify-content: space-between;
+}
+header a{
+    color: var(--mainColor);
+    text-decoration: none;
+}
+.cabecera{
+    margin-top: 10px;
+    padding: 20px;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+h2{
+    text-shadow: black 4px 1px 10px ;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    color: var(--mainColor);
+    font-size: 36px;
+    font-style: italic;
+}
+
+.formulario{
+    display: flexbox;
+    width: 65%;
+    background: var(--mainColor);
+    border-radius: 50px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    text-align: center;
+    line-height: 3em;
+    box-shadow: 10px 5px 20px black;
+}
+
+.formulario p{
+    line-height: 40px;
+}
+
+.formulario a{
+    color:black;
+    text-decoration: none;
+}
+
+.formulario a:hover{
+    color:var(--bgColor1);
+    text-decoration: underline;
+}
+
+.campoTexto{
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Rockwell;
+    font-family: 14px;
+}
+
+.boton{
+    font-family: Rockwell;
+    font-size: 14px;
+    margin: 20px 0;
+    color: var(--mainColor);
+    background-color: var(--bgColor1);
+    border: 2px solid var(--mainColor);
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    transition: all 0.2s;
+}
+.boton:hover{
+    opacity: 0.7;
+}
+
+.pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--bgColor1);
+    color: var(--mainColor);
+}
+
+.enlaces{
+    background-color: var(--bgColor1);
+    padding: 8px;
+}

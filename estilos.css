@@ -139,7 +139,7 @@ p, table, td, th{
 }
 
 article li{
-    margin: 40px;
+    margin: 20px;
 }
 .enlaces{
     background-color: var(--bgColor1);
@@ -189,4 +189,7 @@ article li{
 }
 .trofeocLib{
     top:360px;
+}
+.somos{
+    top:220px;
 }
